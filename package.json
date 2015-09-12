@@ -1,0 +1,13 @@
+{
+  "name": "self-attaching-components",
+  "version": "1.0.0",
+  "description": "\"Self attaching components design pattern\"",
+  "main": "main.js",
+  "scripts": { "demo": "node main.js"},
+  "author": "Vincent De Feo (ghzmdr)",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "babel": "^5.8.23"
+  }
+}
