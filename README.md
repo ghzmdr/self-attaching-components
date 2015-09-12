@@ -23,7 +23,7 @@ An entity is just a shell, as discussed in some SFML forums and other papers.
 
 It holds an array of properties which are just labels the components look for in order to attach themselves.
 
-Each component defines ad exposes the label that should be matched for it to be attach, as `requiredPropery`.
+Each component defines ad exposes the label that should be matched for it to be attached as `requiredPropery`.
 
 A `ComponentPool` exposes all the components' constructors mapped by their `requiredProperty` so an entity just attaches the ones that match one of its `properties`.
 
